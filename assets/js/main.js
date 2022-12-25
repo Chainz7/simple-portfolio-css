@@ -61,11 +61,10 @@ tabs.forEach(tab => {
         })
         target.classList.add('qualification__active')
 
-        console.log(tab);
-        tab.forEach(tab => {
-            tab.classList.remove('qualification__active')
-        })
-        tab.classList.add('qualification__active')
+        // tab.forEach(tab => {
+        //     tab.classList.remove('qualification__active')
+        // })
+        // tab.classList.add('qualification__active')
     })
 })
 
